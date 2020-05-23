@@ -32,7 +32,7 @@ if enorde=='e':
 
 elif enorde=='d':
     scores=[0]*26
-    gcm=input('Get Close Matches?')
+    gcm=input('Get Close Matches?(y or n(no is recommended))')
     if gcm=='y':
         from difflib import get_close_matches
         import json
